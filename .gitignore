@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/1.4/Source/Researchable Stat Upgrades Rewrite/packages/Lib.Harmony.2.2.2
+/1.4/Source/Researchable Stat Upgrades Rewrite/obj
+/1.4/Source/Researchable Stat Upgrades Rewrite/.vs/Researchable Stat Upgrades Rewrite/v16
+/1.4/Source/Researchable Stat Upgrades Rewrite/Properties

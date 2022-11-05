@@ -28,6 +28,7 @@
   <loadAfter>
     <li>brrainz.harmony</li>
     <li>imranfish.xmlextensions</li>
+    <li>kikohi.BetterGroundPenetratingScanner</li>
   </loadAfter>
   <description>
 Reupload of [SS Researchable Stat Upgrades] for 1.3-1.4 by yours truly, kd8lvt.
