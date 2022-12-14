@@ -52,6 +52,63 @@
             </Operation>
         </apply>
     </Operation>
+
+    <Operation Class="XmlExtensions.UseSetting">
+        <modId>SSResearchableStatUpgrades</modId>
+        <key>buildingbasehp1_research_cost</key>
+        <defaultValue>500</defaultValue>
+        <apply>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ResearchProjectDef[defName="BuildingBaseHPI"]/baseCost</xpath>
+                <value>
+                    <baseCost>{buildingbasehp1_research_cost}</baseCost>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+
+    <Operation Class="XmlExtensions.UseSetting">
+        <modId>SSResearchableStatUpgrades</modId>
+        <key>buildingbasehp2_research_cost</key>
+        <defaultValue>500</defaultValue>
+        <apply>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ResearchProjectDef[defName="BuildingBaseHPII"]/baseCost</xpath>
+                <value>
+                    <baseCost>{buildingbasehp2_research_cost}</baseCost>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+
+    <Operation Class="XmlExtensions.UseSetting">
+        <modId>SSResearchableStatUpgrades</modId>
+        <key>buildingbasehp3_research_cost</key>
+        <defaultValue>500</defaultValue>
+        <apply>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ResearchProjectDef[defName="BuildingBaseHPIII"]/baseCost</xpath>
+                <value>
+                    <baseCost>{buildingbasehp3_research_cost}</baseCost>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+
+    <Operation Class="XmlExtensions.UseSetting">
+        <modId>SSResearchableStatUpgrades</modId>
+        <key>buildingbasehp4_research_cost</key>
+        <defaultValue>500</defaultValue>
+        <apply>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ResearchProjectDef[defName="BuildingBaseHPIV"]/baseCost</xpath>
+                <value>
+                    <baseCost>{buildingbasehp4_research_cost}</baseCost>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+
     <Operation Class="XmlExtensions.UseSetting">
         <modId>SSResearchableStatUpgrades</modId>
         <key>grow1_research_cost</key>

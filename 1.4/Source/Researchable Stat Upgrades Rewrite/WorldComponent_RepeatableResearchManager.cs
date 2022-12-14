@@ -40,7 +40,7 @@ namespace ResearchableStatUpgrades
 
         public override void ExposeData()
 		{
-			Scribe_Collections.Look<ResearchProjectDef, int>(ref this.researchedFactor, "researchedTimes", LookMode.Def, LookMode.Def);
+            Scribe_Collections.Look(ref researchedFactor, "researchedTimes", LookMode.Def, LookMode.Def);
 		}
 
 		public void ModifyNewDef(ResearchProjectDef def)

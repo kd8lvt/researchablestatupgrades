@@ -3,7 +3,7 @@
 	<ResearchProjectDef>
 		<defName>AnimalsI</defName>
 		<label>Animals I</label>
-		<description>Animal gather speed increased by 5%. Animal gather yield chance also increased by 2.5%.</description>
+		<description>Animal gather speed increased, animal gather yield chance also increased.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -17,7 +17,7 @@
 	<ResearchProjectDef>
 		<defName>AnimalsII</defName>
 		<label>Animals II</label>
-		<description>Animal gather speed increased by another 5%. Animal gather yield chance also increased by another 5%.</description>
+		<description>Animal gather speed increased, animal gather yield chance also increased.</description>
 		<baseCost>3000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -47,7 +47,7 @@
 	<ResearchProjectDef>
 		<defName>ConstructionII</defName>
 		<label>Construction II</label>
-		<description>Construction speed increased by another 7.5%, and 5% increase in construction success chance.</description>
+		<description>Construction speed increased, and 5% increase in construction success chance.</description>
 		<baseCost>3000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -58,5 +58,58 @@
         <tab>StatUpgrades</tab>
 		<researchViewX>5</researchViewX>
 		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>BuildingBaseHPI</defName>
+		<label>Bracing</label>
+		<description>Increase maximum HP of all constructions owned by your faction. Your constructors will need to do some work on all existing constructions to get them up to the new standard. NOTE: You may need to reload your save for them to realise they need to do this, due to a RimWorld bug.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>StatUpgrades</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>BuildingBaseHPII</defName>
+		<label>Buttresses</label>
+		<description>Increase maximum HP of all constructions owned by your faction more. Your constructors will need to do some work on all existing constructions to get them up to the new standard. NOTE: You may need to reload your save for them to realise they need to do this, due to a RimWorld bug.</description>
+		<prerequisites>
+			<li>BuildingBaseHPI</li>
+			<li>Stonecutting</li>
+		</prerequisites>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<tab>StatUpgrades</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>BuildingBaseHPIII</defName>
+		<label>Armor Plating</label>
+		<description>Increase maximum HP of all constructions owned by your faction some more. Your constructors will need to do some work on all existing constructions to get them up to the new standard. NOTE: You may need to reload your save for them to realise they need to do this, due to a RimWorld bug.</description>
+		<prerequisites>
+			<li>BuildingBaseHPII</li>
+			<li>Machining</li>
+		</prerequisites>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>StatUpgrades</tab>
+		<researchViewX>5</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>BuildingBaseHPIV</defName>
+		<label>Nanite Reinforcement</label>
+		<description>Increase maximum HP of all constructions owned by your faction even more. Your constructors will need to do some work on all existing constructions to get them up to the new standard. NOTE: You may need to reload your save for them to realise they need to do this, due to a RimWorld bug.</description>
+		<prerequisites>
+			<li>BuildingBaseHPIII</li>
+			<li>Fabrication</li>
+		</prerequisites>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<tab>StatUpgrades</tab>
+		<researchViewX>7</researchViewX>
+		<researchViewY>6</researchViewY>
 	</ResearchProjectDef>
 </Defs>

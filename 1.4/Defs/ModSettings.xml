@@ -74,6 +74,50 @@
                     </li>
                     <li Class="XmlExtensions.Setting.Gap"/>
                     <li Class='XmlExtensions.Setting.Text'>
+                        <text>Building Base HP I (Bracing)</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+                    <li Class="XmlExtensions.Setting.TextBox">
+                        <key>buildingbasehp1_research_cost</key>
+                        <label>Research Cost</label>
+                        <defaultValue>500</defaultValue>
+                    </li>
+                    <li Class="XmlExtensions.Setting.Gap"/>
+                    <li Class='XmlExtensions.Setting.Text'>
+                        <text>Building Base HP II (Buttresses)</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+                    <li Class="XmlExtensions.Setting.TextBox">
+                        <key>buildingbasehp2_research_cost</key>
+                        <label>Research Cost</label>
+                        <defaultValue>500</defaultValue>
+                    </li>
+                    <li Class="XmlExtensions.Setting.Gap"/>
+                    <li Class='XmlExtensions.Setting.Text'>
+                        <text>Building Base HP III (Armor Plating)</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+                    <li Class="XmlExtensions.Setting.TextBox">
+                        <key>buildingbasehp3_research_cost</key>
+                        <label>Research Cost</label>
+                        <defaultValue>500</defaultValue>
+                    </li>
+                    <li Class="XmlExtensions.Setting.Gap"/>
+                    <li Class='XmlExtensions.Setting.Text'>
+                        <text>Building Base HP IV (Nanite Reinforcement)</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+                    <li Class="XmlExtensions.Setting.TextBox">
+                        <key>buildingbasehp4_research_cost</key>
+                        <label>Research Cost</label>
+                        <defaultValue>500</defaultValue>
+                    </li>
+                    <li Class="XmlExtensions.Setting.Gap"/>
+                    <li Class='XmlExtensions.Setting.Text'>
                         <text>Efficient Growing I</text>
                         <font>Small</font>
                         <anchor>Middle</anchor>
@@ -418,6 +462,52 @@
                         <key>construction2_statbonus_success</key>
                         <label>Construction Success Chance</label>
                         <defaultValue>1.05</defaultValue>
+                    </li>
+                    <li Class="XMLExtensions.Setting.Gap"/>
+                    <li Class="XMLExtensions.Setting.Gap"/>
+                    <!-- Building Base HP -->
+                    <li Class="XmlExtensions.Setting.Text">
+                        <text>Building Base HP I (Bracing)</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+                    <li Class="XMLExtensions.Setting.Textbox">
+                        <key>buildingbasehp1_statbonus_basehp</key>
+                        <label>Base HP</label>
+                        <defaultValue>1.05</defaultValue>
+                    </li>
+                    
+                    <li Class="XmlExtensions.Setting.Text">
+                        <text>Building Base HP II (Buttresses)</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+                    <li Class="XMLExtensions.Setting.Textbox">
+                        <key>buildingbasehp2_statbonus_basehp</key>
+                        <label>Base HP</label>
+                        <defaultValue>1.1</defaultValue>
+                    </li>
+                    
+                    <li Class="XmlExtensions.Setting.Text">
+                        <text>Building Base HP III (Armor Plating)</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+                    <li Class="XMLExtensions.Setting.Textbox">
+                        <key>buildingbasehp3_statbonus_basehp</key>
+                        <label>Base HP</label>
+                        <defaultValue>1.1</defaultValue>
+                    </li>
+                    
+                    <li Class="XmlExtensions.Setting.Text">
+                        <text>Building Base HP IV (Nanite Reinforcement)</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+                    <li Class="XMLExtensions.Setting.Textbox">
+                        <key>buildingbasehp4_statbonus_basehp</key>
+                        <label>Base HP</label>
+                        <defaultValue>1.1</defaultValue>
                     </li>
                     <li Class="XMLExtensions.Setting.Gap"/>
                     <li Class="XMLExtensions.Setting.Gap"/>
